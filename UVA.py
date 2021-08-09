@@ -7,7 +7,7 @@ import seaborn as sns
 import pyarrow as pa
 import pyarrow.parquet as pq
 
-st.title("UVA Basketball Lineups for the 2019-20 season")
+st.title("UVA Basketball Player Comparison for the 2019-20 season")
 st.header("This is an interactive page that can allow you to compare two UVA players and there impact based on the lineups they were apart of.")
 df = pd.read_csv("Lineups_separated.csv")
 
