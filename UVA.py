@@ -9,8 +9,9 @@ import pyarrow.parquet as pq
 
 st.title("UVA Basketball Player Comparison for the 2019-20 season")
 st.header("This is an interactive page that allows you to compare two UVA players and their impact based on the lineups they were apart of.")
-st.sidebar("This page was developed by John Kim and is stored at https://github.com/JohnKim08/UVAStreamlit")
-st.sidebar("The lineup data was scraped using the R library ncaahoopR https://github.com/lbenz730/ncaahoopR")
+st.sidebar.title("Streamlit Demo of UVA Basketball Lineup Data")
+st.sidebar.write("This page was developed by John Kim and is stored at https://github.com/JohnKim08/UVAStreamlit")
+st.sidebar.write("The lineup data was scraped using the R library ncaahoopR https://github.com/lbenz730/ncaahoopR")
 df = pd.read_csv("Lineups_separated.csv")
 
 Virginia_players = df.loc[df["Team"] == "Virginia"]
