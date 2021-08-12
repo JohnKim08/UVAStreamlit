@@ -7,7 +7,7 @@ import seaborn as sns
 import pyarrow as pa
 import pyarrow.parquet as pq
 
-st.title("UVA Basketball Player Comparison for the 2019-20 season")
+st.title("UVA Basketball Player Comparison for the 2018-19 season")
 st.header("This is an interactive page that allows you to compare two UVA players and their impact based on the lineups they were apart of.")
 st.sidebar.title("Streamlit Demo of UVA Basketball Lineup Data")
 st.sidebar.write("This page was developed by John Kim and is stored at https://github.com/JohnKim08/UVAStreamlit")
